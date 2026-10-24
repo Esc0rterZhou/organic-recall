@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Install pinned build dependency
         run: npm install --ignore-scripts --omit=optional --no-audit --no-fund
-      - name: Bundle PDF.js for self-contained browser use
+      - name: Bundle PDF.js and standalone Ketcher for browser use
         run: npm run build
       - name: Verify content and independence
         run: npm run check

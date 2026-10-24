@@ -8,3 +8,6 @@ node_modules/
 site-transfer.json
 prepare.mjs
 dist/vendor/
+dist/editor/
+cache/
+pnpm-lock.yaml
