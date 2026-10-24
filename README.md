@@ -4,9 +4,13 @@ Independent organic chemistry review in English. Public site: https://esc0rterzh
 
 No GPT, ChatGPT account, OpenAI API or API key is needed. GitHub Pages serves static files; PDF processing, structure editing, checks and progress storage run in the visitor's browser.
 
+## Choose a chapter
+
+The homepage shows all 26 chapters, with a prominent Choose chapter selector, search and chapter groups. Select a chapter, then start its recall quiz or add lecture PDFs. Chapter 19 also offers a Visual practice link to the separate Exam Studio at review.html. The studio includes a visible return to all chapters.
+
 ## Exam Studio: Chapter 19 pilot
 
-The home page offers a prepared reaction map, six active-recall cards, an automatic weak-point list and five integrated prompts. The two-day plan totals 150 minutes, without a scheduling setup flow.
+The Chapter 19 Exam Studio offers a prepared reaction map, six active-recall cards, an automatic weak-point list and five integrated prompts. The two-day plan totals 150 minutes, without a scheduling setup flow.
 
 - Two product drawings: acyl chloride formation and carboxylic acid reduction.
 - One ordered-conditions task: Grignard carbonation and acid workup.
