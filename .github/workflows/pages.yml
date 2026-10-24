@@ -1,0 +1,40 @@
+name: Deploy independent website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v6
+      - name: Install pinned build dependency
+        run: npm install --ignore-scripts --omit=optional --no-audit --no-fund
+      - name: Bundle PDF.js for self-contained browser use
+        run: npm run build
+      - name: Verify content and independence
+        run: npm run check
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Package website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4

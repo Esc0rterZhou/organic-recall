@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+const require=createRequire(import.meta.url);
+const pkg=path.dirname(require.resolve('pdfjs-dist/package.json'));
+const dst=fileURLToPath(new URL('../dist/vendor/',import.meta.url));
+fs.mkdirSync(dst,{recursive:true});
+for(const file of ['pdf.mjs','pdf.worker.mjs'])fs.copyFileSync(path.join(pkg,'build',file),path.join(dst,file));
+fs.copyFileSync(path.join(pkg,'LICENSE'),path.join(dst,'PDFJS-LICENSE.txt'));
+for(const dir of ['cmaps','standard_fonts','wasm'])if(fs.existsSync(path.join(pkg,dir)))fs.cpSync(path.join(pkg,dir),path.join(dst,dir),{recursive:true});
+console.log('Bundled pinned PDF.js assets. The deployed website needs no external script host.');

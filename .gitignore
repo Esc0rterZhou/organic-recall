@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+.openai/
+.sites-runtime/
+site-transfer.json
+prepare.mjs
+dist/vendor/
