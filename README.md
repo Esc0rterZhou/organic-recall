@@ -14,7 +14,7 @@ An independent organic chemistry workspace with English, Chinese and French inte
 - Lecture PDF upload has been removed. Course content is updated centrally by the maintainer after receiving teaching materials outside the website.
 - Language and reduced-motion preferences live under Settings. User progress, quiz drafts, visual attempts, notes and reading bookmarks are stored per profile. Guest data is separate; copying guest progress into an account is explicit.
 
-The default homepage uses an original generated dusk cloudscape, dark surfaces, fine borders and a translucent study pass based on the supplied design references. The original reference video and design documents are not deployed.
+The default entry page uses the original dusk cloudscape and a glass login panel. The internal workspace has a compact dashboard with a chapter selector, continuation card, progress ring and quick actions. Main reading text is larger, explanatory copy is reduced, and optional guidance is expandable. Navigation uses short content entrances; answer selection updates in place to retain focus. Reduced motion follows both the site setting and the operating system. The original reference video and design documents are not deployed.
 
 ## Run and build
 
