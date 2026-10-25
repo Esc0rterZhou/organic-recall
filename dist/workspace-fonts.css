@@ -1,0 +1,5 @@
+/* System fallbacks keep every supported script readable without a font CDN. */
+html:lang(zh-CN){--sans:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC',system-ui,sans-serif;--serif:'Noto Serif CJK SC','Songti SC','SimSun',serif}
+html:lang(zh-CN) .hero-main h1{letter-spacing:-.035em;line-height:1.15}
+html:lang(zh-CN) .display-serif{font-style:normal}
+html:lang(zh-CN) .eyebrow{letter-spacing:.12em}

@@ -1,12 +1,11 @@
-# Third-party software
+# Third-party software and assets
 
-Organic Recall bundles EPAM Ketcher 3.18.0 standalone, including its local Indigo chemistry engine, from the official release:
-https://github.com/epam/ketcher/releases/tag/v3.18.0
+PDF.js 5.7.284 is Apache-2.0 licensed. Its locally bundled license is dist/vendor/PDFJS-LICENSE.txt. Fonts, CMaps and WebAssembly assets are served from this host.
 
-Ketcher is distributed under Apache-2.0. Copyright belongs to its contributors. The original release's JavaScript license notices remain alongside the copied bundles. Its source and license are available at https://github.com/epam/ketcher/blob/v3.18.0/LICENSE.
+Supabase JavaScript client 2.118.0 is MIT licensed; dist/vendor/SUPABASE-LICENSE.txt retains its license. Bundle legal comments remain in the client module. Supabase is an independent account backend, not an OpenAI dependency.
 
-The pinned archive SHA-256 is `484e7f10a0e74808ae5f43f0e6448db6f4d884bdd2189aa271108474167a3e7e`. The build verifies it before extraction. Only the main standalone application and shared chunks are deployed; alternate entry applications are omitted.
+The cloudscape in dist/assets/dusk.webp was generated originally for this site. The user's design-reference video is not copied into the website. System font fallbacks require no font CDN and do not redistribute the reference brands' proprietary fonts.
 
-PDF.js 5.7.284 is distributed under Apache-2.0. Its license is copied to `dist/vendor/PDFJS-LICENSE.txt`, alongside its locally served fonts, CMaps and WebAssembly assets.
+The textbook and lectures are reference material, not bundled content. Visitors may select a local textbook for private in-site rendering. The original PDFs are not uploaded, synced or publicly hosted.
 
-The original textbook and lecture PDFs are not redistributed. Study prompts and reference graphs are authored for this website; references identify the supplied textbook or lecture file page, not a right to redistribute those documents.
+Ketcher 3.18.0 appeared in the earlier local full-editor version. Its license is retained in licenses/KETCHER-LICENSE.txt for that archived source. The v3 public workspace uses its own bounded guided reactions and does not require Ketcher. Official source: https://github.com/epam/ketcher/releases/tag/v3.18.0.

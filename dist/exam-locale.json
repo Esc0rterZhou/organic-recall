@@ -1,0 +1,614 @@
+{
+  "Keep the carbonyl. Change its partner.": {
+    "zh": "保留羰基，替换相连基团。",
+    "fr": "Conservez le carbonyle. Changez son partenaire."
+  },
+  "Acyl halides": {
+    "zh": "酰卤",
+    "fr": "Halogénures d’acyle"
+  },
+  "Butanoic acid is treated with SOCl2 under dry conditions, with heat. Edit the copied substrate to show the isolated organic product. Omit gaseous by-products.": {
+    "zh": "丁酸在无水条件下与 SOCl2 一起加热。编辑复制的底物，画出分离得到的有机产物，省略气体副产物。",
+    "fr": "L’acide butanoïque est traité par SOCl2 à sec et à chaud. Modifiez le substrat copié pour représenter le produit organique isolé. Omettez les sous-produits gazeux."
+  },
+  "SOCl2 · dry conditions · heat": {
+    "zh": "SOCl2 · 无水条件 · 加热",
+    "fr": "SOCl2 · conditions anhydres · chauffage"
+  },
+  "Butanoyl chloride": {
+    "zh": "丁酰氯",
+    "fr": "Chlorure de butanoyle"
+  },
+  "The four-carbon skeleton and C=O bond stay in place.": {
+    "zh": "四碳骨架和 C=O 键保持不变。",
+    "fr": "Le squelette à quatre carbones et la liaison C=O restent en place."
+  },
+  "An acyl halide replaces the hydroxyl part of COOH.": {
+    "zh": "形成酰卤时，COOH 中的羟基部分被替换。",
+    "fr": "La formation d’un halogénure d’acyle remplace la partie hydroxyle de COOH."
+  },
+  "Change the acid OH oxygen to Cl. Keep chlorine on the acyl carbon, not the alpha carbon.": {
+    "zh": "将羧酸 OH 中的氧改为 Cl。氯应连接酰基碳，而不是 α 碳。",
+    "fr": "Remplacez l’oxygène du OH acide par Cl. Placez le chlore sur le carbone acyle, et non sur le carbone alpha."
+  },
+  "SOCl2 converts the carboxylic acid into an acyl chloride, with SO2 and HCl as by-products. This question checks the product, not a uniquely proven microscopic activation mechanism.": {
+    "zh": "SOCl2 将羧酸转化为酰氯，副产物为 SO2 和 HCl。本题检查产物，不要求将某条微观活化机理视为唯一经证实的途径。",
+    "fr": "SOCl2 transforme l’acide carboxylique en chlorure d’acyle, avec SO2 et HCl comme sous-produits. Cette question vérifie le produit, sans imposer un mécanisme microscopique d’activation comme unique voie prouvée."
+  },
+  "Follow the reaction through the workup.": {
+    "zh": "把反应追踪到后处理完成。",
+    "fr": "Suivez la réaction jusqu’au traitement final."
+  },
+  "Reduction": {
+    "zh": "还原",
+    "fr": "Réduction"
+  },
+  "Propanoic acid undergoes (1) LiAlH4 in dry THF, then (2) aqueous acidic workup. Edit the copied substrate to show the isolated organic product.": {
+    "zh": "丙酸先经 (1) 无水 THF 中的 LiAlH4 处理，再 (2) 进行酸性水溶液后处理。编辑复制的底物，画出分离得到的有机产物。",
+    "fr": "L’acide propanoïque subit (1) LiAlH4 dans le THF sec, puis (2) un traitement aqueux acide. Modifiez le substrat copié pour représenter le produit organique isolé."
+  },
+  "1. LiAlH4, dry THF   2. H3O+ / water": {
+    "zh": "1. LiAlH4，无水 THF　2. H3O+ / 水",
+    "fr": "1. LiAlH4, THF sec   2. H3O+ / eau"
+  },
+  "Propan-1-ol": {
+    "zh": "1-丙醇",
+    "fr": "Propan-1-ol"
+  },
+  "Keep all three carbon atoms.": {
+    "zh": "保留全部三个碳原子。",
+    "fr": "Conservez les trois atomes de carbone."
+  },
+  "LiAlH4 does not stop this reduction at the aldehyde.": {
+    "zh": "LiAlH4 不会使这一还原停留在醛阶段。",
+    "fr": "LiAlH4 n’arrête pas cette réduction au stade de l’aldéhyde."
+  },
+  "The acid group becomes CH2OH. The final aqueous workup gives the neutral alcohol.": {
+    "zh": "羧基转化为 CH2OH。最终水溶液后处理得到中性醇。",
+    "fr": "Le groupe acide devient CH2OH. Le traitement aqueux final donne l’alcool neutre."
+  },
+  "The carboxyl carbon is retained and becomes the CH2OH carbon. An alkoxide is a pre-workup intermediate, not the requested isolated product. Ordinary NaBH4 conditions do not give this transformation.": {
+    "zh": "羧基碳保留并成为 CH2OH 的碳。醇负离子是后处理前的中间体，不是题目要求的分离产物。普通 NaBH4 条件不能完成该转化。",
+    "fr": "Le carbone carboxylique est conservé et devient celui de CH2OH. L’alcoolate est un intermédiaire avant traitement, et non le produit isolé demandé. Les conditions ordinaires avec NaBH4 ne réalisent pas cette transformation."
+  },
+  "Add one carbon, then finish the workup.": {
+    "zh": "增加一个碳，再完成后处理。",
+    "fr": "Ajoutez un carbone, puis effectuez le traitement final."
+  },
+  "Grignard carbonation": {
+    "zh": "格氏试剂羧化",
+    "fr": "Carboxylation de Grignard"
+  },
+  "Ethylmagnesium bromide has already been prepared. Give the ordered conditions that convert it into propanoic acid. Write the two stages separately.": {
+    "zh": "溴化乙基镁已制备好。按顺序写出将其转化为丙酸的条件，将两个阶段分开填写。",
+    "fr": "Le bromure d’éthylmagnésium est déjà préparé. Indiquez, dans l’ordre, les conditions permettant de le transformer en acide propanoïque. Écrivez les deux étapes séparément."
+  },
+  "The target contains one additional carbon.": {
+    "zh": "目标产物比原料多一个碳。",
+    "fr": "La cible contient un carbone supplémentaire."
+  },
+  "Carbon dioxide provides the new carboxyl carbon.": {
+    "zh": "二氧化碳提供新的羧基碳。",
+    "fr": "Le dioxyde de carbone fournit le nouveau carbone carboxylique."
+  },
+  "CO2 first gives a carboxylate salt. Protonate it only after the organometallic reaction.": {
+    "zh": "CO2 首先生成羧酸盐。应在有机金属反应完成后再使其质子化。",
+    "fr": "CO2 donne d’abord un sel carboxylate. Ne le protonez qu’après la réaction organométallique."
+  },
+  "The organomagnesium reagent attacks CO2. A separate aqueous acidic workup converts the carboxylate into the free acid. Water or acid added before CO2 quenches the organomagnesium reagent.": {
+    "zh": "有机镁试剂进攻 CO2。单独进行的酸性水溶液后处理将羧酸根转化为游离酸。若在 CO2 前加入水或酸，会淬灭有机镁试剂。",
+    "fr": "Le réactif organomagnésien attaque CO2. Un traitement aqueux acide séparé transforme le carboxylate en acide libre. L’eau ou l’acide ajouté avant CO2 neutralise le réactif organomagnésien."
+  },
+  "Stage 1 · reagent / dry medium": {
+    "zh": "阶段 1 · 试剂 / 无水介质",
+    "fr": "Étape 1 · réactif / milieu anhydre"
+  },
+  "Stage 2 · aqueous workup": {
+    "zh": "阶段 2 · 水溶液后处理",
+    "fr": "Étape 2 · traitement aqueux"
+  },
+  "CO2 in dry ether or THF": {
+    "zh": "无水乙醚或 THF 中的 CO2",
+    "fr": "CO2 dans l’éther ou le THF sec"
+  },
+  "Aqueous acid, e.g. H3O+ or dilute HCl": {
+    "zh": "酸性水溶液，如 H3O+ 或稀 HCl",
+    "fr": "Milieu aqueux acide, par exemple H3O+ ou HCl dilué"
+  },
+  "Two arrows. One elementary addition.": {
+    "zh": "两支箭头，一个基元加成步骤。",
+    "fr": "Deux flèches. Une addition élémentaire."
+  },
+  "Fischer esterification": {
+    "zh": "Fischer 酯化",
+    "fr": "Estérification de Fischer"
+  },
+  "The acid carbonyl has already been protonated. Draw the paired arrows for methanol addition, then edit the copied structure to give the immediate tetrahedral adduct before proton loss. Continue to the water-assisted deprotonation step.": {
+    "zh": "羧酸的羰基已质子化。画出甲醇加成时配套的两支箭头，再编辑复制的结构，给出失去质子之前立即形成的四面体加合物。然后继续完成水辅助脱质子步骤。",
+    "fr": "Le carbonyle de l’acide est déjà protoné. Tracez les deux flèches de l’addition du méthanol, puis modifiez la structure copiée pour donner l’adduit tétraédrique immédiat avant perte de proton. Passez ensuite à la déprotonation assistée par l’eau."
+  },
+  "Start the bond-forming arrow at the alcohol oxygen lone pair.": {
+    "zh": "成键箭头从醇氧的孤对电子出发。",
+    "fr": "Faites partir la flèche de formation de liaison de la paire libre de l’oxygène de l’alcool."
+  },
+  "Opening the carbonyl pi bond is the companion movement.": {
+    "zh": "羰基 π 键的打开是配套的电子移动。",
+    "fr": "L’ouverture de la liaison π du carbonyle constitue le mouvement complémentaire."
+  },
+  "Before proton loss, the attacking alcohol oxygen has three bonds and a +1 charge.": {
+    "zh": "失去质子之前，进攻的醇氧有三个键，带 +1 电荷。",
+    "fr": "Avant la perte de proton, l’oxygène attaquant de l’alcool possède trois liaisons et une charge +1."
+  },
+  "Two annotated local steps. These are not a grader for an arbitrary full esterification mechanism.": {
+    "zh": "这里只检查两个已标注的局部步骤，不能自动批改任意完整酯化机理。",
+    "fr": "Deux étapes locales annotées. Cet outil ne corrige pas un mécanisme complet d’estérification arbitraire."
+  },
+  "1 · Nucleophilic addition": {
+    "zh": "1 · 亲核加成",
+    "fr": "1 · Addition nucléophile"
+  },
+  "M_O lone pair → A_C; the A_C=A_O pi bond → A_O. The new A_C–M_O bond forms, A_C–A_O becomes single, A_O is neutral and M_O is +1. Do not remove M_H in this frame.": {
+    "zh": "M_O 的孤对电子 → A_C；A_C=A_O 的 π 键 → A_O。形成新的 A_C–M_O 键，A_C–A_O 变为单键，A_O 中性，M_O 带 +1 电荷。本帧不要移去 M_H。",
+    "fr": "Paire libre de M_O → A_C ; liaison π A_C=A_O → A_O. La liaison A_C–M_O se forme, A_C–A_O devient simple, A_O est neutre et M_O porte +1. Ne retirez pas M_H dans cette image."
+  },
+  "Treat the two electron-pair arrows as one elementary step. The proton on A_O and the proton on M_O both remain.": {
+    "zh": "把两支电子对箭头作为同一个基元步骤处理。A_O 和 M_O 上的质子均保留。",
+    "fr": "Traitez les deux flèches de doublets comme une seule étape élémentaire. Les protons sur A_O et M_O restent tous deux en place."
+  },
+  "2 · Water accepts the proton": {
+    "zh": "2 · 水接受质子",
+    "fr": "2 · L’eau accepte le proton"
+  },
+  "Water W_O accepts M_H; electrons from M_O–M_H return to M_O. The organic adduct becomes neutral and the water oxygen becomes hydronium (+1).": {
+    "zh": "水 W_O 接受 M_H；M_O–M_H 键的电子回到 M_O。有机加合物变为中性，水氧成为水合氢离子中的氧，带 +1 电荷。",
+    "fr": "L’eau W_O accepte M_H ; les électrons de M_O–M_H reviennent sur M_O. L’adduit organique devient neutre et l’oxygène de l’eau devient celui de l’ion hydronium (+1)."
+  },
+  "An explicit water oxygen is provided as the proton acceptor. Keep all species shown; the proton is not simply deleted.": {
+    "zh": "已明确提供一个水氧作为质子受体。保留图示的全部物种，不能直接删掉质子。",
+    "fr": "Un oxygène d’eau explicite est fourni comme accepteur de proton. Conservez toutes les espèces représentées ; le proton ne doit pas simplement être supprimé."
+  },
+  "Track acyl Br without losing alpha Br.": {
+    "zh": "追踪酰基 Br，保留 α 位 Br。",
+    "fr": "Suivez le Br de l’acyle sans perdre le Br alpha."
+  },
+  "HVZ acyl exchange": {
+    "zh": "HVZ 酰基交换",
+    "fr": "Échange d’acyle HVZ"
+  },
+  "Follow the carbonyl-oxygen attack shown in the marked lecture slide. Add propanoic acid to 2-bromopropanoyl bromide, then complete the first tetrahedral collapse. Stop at the acyl-oxonium species and Br−.": {
+    "zh": "按已标记课件中所示的羰基氧进攻途径进行。使丙酸与 2-溴丙酰溴加成，再完成四面体中间体的第一次塌陷。停在酰基氧鎓物种和 Br− 阶段。",
+    "fr": "Suivez l’attaque par l’oxygène du carbonyle indiquée sur la diapositive annotée. Ajoutez l’acide propanoïque au bromure de 2-bromopropanoyle, puis effectuez le premier effondrement tétraédrique. Arrêtez-vous à l’espèce acyloxonium et à Br−."
+  },
+  "There are two bromines: one at alpha carbon, one directly at the acyl carbon.": {
+    "zh": "有两个溴：一个在 α 碳上，另一个直接连接酰基碳。",
+    "fr": "Il y a deux bromes : l’un sur le carbone alpha, l’autre directement sur le carbone acyle."
+  },
+  "The specified nucleophile is N_O, the ordinary acid carbonyl oxygen—not N_OH.": {
+    "zh": "本题指定的亲核原子是 N_O，即普通羧酸的羰基氧，而不是 N_OH。",
+    "fr": "Le nucléophile indiqué est N_O, l’oxygène du carbonyle de l’acide ordinaire, et non N_OH."
+  },
+  "The addition produces E_O− and a bridging O+. The first collapse releases acyl Br; alpha-Br remains.": {
+    "zh": "加成生成 E_O− 和桥连 O+。第一次塌陷释放酰基 Br；α-Br 保留。",
+    "fr": "L’addition produit E_O− et un O+ pontant. Le premier effondrement libère le Br de l’acyle ; le Br alpha reste."
+  },
+  "Only the two illustrated local exchange steps are checked. The source-shown resonance contributors are both accepted. Other atom-tracking pathways require manual comparison.": {
+    "zh": "仅检查图示两个局部交换步骤，接受原资料所示的两个共振式。其他原子追踪途径需人工比较。",
+    "fr": "Seules les deux étapes locales d’échange illustrées sont vérifiées. Les deux formes de résonance montrées dans la source sont acceptées. D’autres voies de suivi des atomes exigent une comparaison manuelle."
+  },
+  "1 · Carbonyl-oxygen addition": {
+    "zh": "1 · 羰基氧加成",
+    "fr": "1 · Addition de l’oxygène du carbonyle"
+  },
+  "N_O → E_C and E_C=E_O → E_O. The target is a tetrahedral zwitterion with E_O− and bridging N_O+. The alternate resonance contributor places the positive charge on N_OH and changes the N_C–O bond orders.": {
+    "zh": "N_O → E_C，E_C=E_O → E_O。目标是带 E_O− 和桥连 N_O+ 的四面体两性离子。另一共振式将正电荷移至 N_OH，并改变 N_C–O 的键级。",
+    "fr": "N_O → E_C et E_C=E_O → E_O. La cible est un zwitterion tétraédrique portant E_O− et N_O+ pontant. L’autre forme de résonance place la charge positive sur N_OH et modifie les ordres des liaisons N_C–O."
+  },
+  "This follows the labelled carbonyl-oxygen pathway in lecture PDF p.35 (original slide 32). Net charge remains zero.": {
+    "zh": "此处遵循课件 PDF 第 35 页（原幻灯片第 32 页）标记的羰基氧途径。净电荷保持为零。",
+    "fr": "Cette étape suit la voie de l’oxygène du carbonyle annotée à la page 35 du PDF de cours (diapositive d’origine 32). La charge nette reste nulle."
+  },
+  "2 · Tetrahedral collapse": {
+    "zh": "2 · 四面体中间体塌陷",
+    "fr": "2 · Effondrement tétraédrique"
+  },
+  "E_O− reforms E_C=E_O; the E_C–E_BrAcyl bond releases Br−. The bridging organic O remains positively charged (or its accepted resonance contributor does). E_alpha–E_BrAlpha remains intact.": {
+    "zh": "E_O− 恢复 E_C=E_O；E_C–E_BrAcyl 键断裂释放 Br−。桥连有机氧仍带正电荷，或以接受的另一共振式表示。E_alpha–E_BrAlpha 键保持完整。",
+    "fr": "E_O− rétablit E_C=E_O ; la liaison E_C–E_BrAcyl libère Br−. L’oxygène organique pontant reste positif, ou sa forme de résonance acceptée porte cette charge. E_alpha–E_BrAlpha reste intacte."
+  },
+  "The organic ion is +1 and the departing Br is −1. This is not yet the neutral final exchange product or the complete HVZ cycle.": {
+    "zh": "有机离子带 +1 电荷，离去的 Br 带 −1 电荷。这还不是中性最终交换产物，也不是完整 HVZ 循环。",
+    "fr": "L’ion organique porte +1 et le Br partant −1. Il ne s’agit pas encore du produit final neutre de l’échange ni du cycle HVZ complet."
+  },
+  "Build the extra carbon in two transformations.": {
+    "zh": "用两次转化增加一个碳。",
+    "fr": "Construisez le carbone supplémentaire en deux transformations."
+  },
+  "Nitrile route": {
+    "zh": "腈路线",
+    "fr": "Voie du nitrile"
+  },
+  "Use the nitrile route to convert 1-bromopropane into butanoic acid. On each card, enter conditions and edit the intermediate or product. Alternative Grignard routes are outside this specified two-card exercise.": {
+    "zh": "用腈路线将 1-溴丙烷转化为丁酸。每张卡填写条件，并编辑中间体或产物。其他格氏路线不属于本题指定的两卡练习。",
+    "fr": "Transformez le 1-bromopropane en acide butanoïque par la voie du nitrile. Sur chaque carte, indiquez les conditions et modifiez l’intermédiaire ou le produit. Les voies alternatives de Grignard ne font pas partie de cet exercice à deux cartes."
+  },
+  "Use an SN2 reagent that brings a carbon atom with it.": {
+    "zh": "选择能同时带来一个碳原子的 SN2 试剂。",
+    "fr": "Utilisez un réactif SN2 apportant un atome de carbone."
+  },
+  "The nitrile carbon becomes the carboxyl carbon.": {
+    "zh": "腈基碳成为羧基碳。",
+    "fr": "Le carbone du nitrile devient le carbone carboxylique."
+  },
+  "Heated aqueous hydrolysis is required. If it is basic, explicitly acidify afterward.": {
+    "zh": "需要加热进行水相水解。若采用碱性条件，必须明确写出后续酸化。",
+    "fr": "Une hydrolyse aqueuse à chaud est nécessaire. Si elle est basique, indiquez explicitement l’acidification ultérieure."
+  },
+  "1 · Install the nitrile carbon": {
+    "zh": "1 · 引入腈基碳",
+    "fr": "1 · Introduire le carbone du nitrile"
+  },
+  "Cyanide displaces Br by SN2. The intermediate is butanenitrile (four carbons including C≡N).": {
+    "zh": "氰根通过 SN2 取代 Br。中间体是丁腈，包含 C≡N 的碳在内共四个碳。",
+    "fr": "Le cyanure déplace Br par SN2. L’intermédiaire est le butanenitrile, à quatre carbones en comptant celui de C≡N."
+  },
+  "NaCN or KCN, suitable SN2 medium (e.g. DMF)": {
+    "zh": "NaCN 或 KCN，适合 SN2 的介质（如 DMF）",
+    "fr": "NaCN ou KCN, milieu adapté à SN2 (par exemple DMF)"
+  },
+  "2 · Hydrolyse, then isolate the acid": {
+    "zh": "2 · 水解并分离羧酸",
+    "fr": "2 · Hydrolyser, puis isoler l’acide"
+  },
+  "Hydrolyse the nitrile using hot aqueous acid, or hot aqueous base followed by acidification. The nitrile carbon remains as the carboxyl carbon.": {
+    "zh": "用热的酸性水溶液水解腈，或用热的碱性水溶液水解后酸化。腈基碳保留为羧基碳。",
+    "fr": "Hydrolysez le nitrile en milieu aqueux acide chaud, ou basique chaud suivi d’une acidification. Le carbone du nitrile est conservé comme carbone carboxylique."
+  },
+  "Hot aqueous HCl / reflux": {
+    "zh": "热 HCl 水溶液 / 回流",
+    "fr": "HCl aqueux chaud / reflux"
+  },
+  "Acidic isolation; if NaOH/KOH hydrolysis is used, acidify afterward": {
+    "zh": "在酸性条件下分离；若用 NaOH/KOH 水解，随后需酸化",
+    "fr": "Isolement en milieu acide ; après hydrolyse par NaOH/KOH, acidifier"
+  },
+  "Suitable primary haloalkane": {
+    "zh": "合适的伯卤代烷",
+    "fr": "Haloalcane primaire adapté"
+  },
+  "Dry organomagnesium reagent": {
+    "zh": "无水有机镁试剂",
+    "fr": "Réactif organomagnésien anhydre"
+  },
+  "Oxidation precursors": {
+    "zh": "可氧化的前体",
+    "fr": "Précurseurs d’oxydation"
+  },
+  "One-carbon extension": {
+    "zh": "碳链增长一个碳",
+    "fr": "Allongement d’un carbone"
+  },
+  "Carboxylic acid hub": {
+    "zh": "羧酸核心节点",
+    "fr": "Nœud des acides carboxyliques"
+  },
+  "Activated acyl group": {
+    "zh": "活化酰基",
+    "fr": "Groupe acyle activé"
+  },
+  "Reversible esterification": {
+    "zh": "可逆酯化",
+    "fr": "Estérification réversible"
+  },
+  "Salt first / activation": {
+    "zh": "先成盐 / 活化",
+    "fr": "Sel d’abord / activation"
+  },
+  "Carbon count retained": {
+    "zh": "碳数不变",
+    "fr": "Nombre de carbones conservé"
+  },
+  "Requires alpha-H": {
+    "zh": "需要 α-H",
+    "fr": "Nécessite un H alpha"
+  },
+  "Substitution at alpha carbon": {
+    "zh": "α 碳上的取代",
+    "fr": "Substitution sur le carbone alpha"
+  },
+  "SN2 · +1 C": {
+    "zh": "SN2 · 增加 1 C",
+    "fr": "SN2 · +1 C"
+  },
+  "NaCN or KCN; suitable SN2 conditions": {
+    "zh": "NaCN 或 KCN；适当的 SN2 条件",
+    "fr": "NaCN ou KCN ; conditions SN2 adaptées"
+  },
+  "Best with a suitable primary substrate. Tertiary and vinyl halides do not follow ordinary SN2.": {
+    "zh": "最适合适当的伯底物。叔卤代烷和乙烯基卤化物不遵循普通 SN2。",
+    "fr": "Convient surtout à un substrat primaire adapté. Les halogénures tertiaires et vinyliques ne suivent pas une SN2 ordinaire."
+  },
+  "Carboxylation · +1 C": {
+    "zh": "羧化 · 增加 1 C",
+    "fr": "Carboxylation · +1 C"
+  },
+  "1. CO2, dry ether/THF  2. aqueous acid": {
+    "zh": "1. CO2，无水乙醚/THF　2. 酸性水溶液",
+    "fr": "1. CO2, éther/THF sec  2. milieu aqueux acide"
+  },
+  "Free OH, NH or SH can quench the reagent; reactive carbonyl groups may need protection.": {
+    "zh": "游离 OH、NH 或 SH 可淬灭试剂；活泼羰基可能需要保护。",
+    "fr": "Les groupes OH, NH ou SH libres peuvent neutraliser le réactif ; les carbonyles réactifs peuvent nécessiter une protection."
+  },
+  "Hydrolysis": {
+    "zh": "水解",
+    "fr": "Hydrolyse"
+  },
+  "Hot aqueous acid, or hot aqueous base followed by acidification": {
+    "zh": "热的酸性水溶液，或热的碱性水溶液后再酸化",
+    "fr": "Milieu aqueux acide chaud, ou basique chaud suivi d’une acidification"
+  },
+  "The nitrile carbon is retained. A basic-only endpoint is a carboxylate, not the isolated acid.": {
+    "zh": "腈基碳保留。只在碱性条件下结束得到的是羧酸根，而非分离出的酸。",
+    "fr": "Le carbone du nitrile est conservé. Une fin de réaction uniquement basique donne un carboxylate, et non l’acide isolé."
+  },
+  "Oxidation": {
+    "zh": "氧化",
+    "fr": "Oxydation"
+  },
+  "Appropriate aqueous oxidant, e.g. Cr(VI) or KMnO4": {
+    "zh": "适当的水相氧化剂，如 Cr(VI) 或 KMnO4",
+    "fr": "Oxydant aqueux adapté, par exemple Cr(VI) ou KMnO4"
+  },
+  "Same carbon count. Check other oxidisable groups; alcohol-to-aldehyde conditions are not automatically acid-forming conditions.": {
+    "zh": "碳数不变。检查其他可氧化基团；醇氧化成醛的条件不一定能生成酸。",
+    "fr": "Le nombre de carbones est conservé. Vérifiez les autres groupes oxydables ; des conditions alcool-vers-aldéhyde ne donnent pas automatiquement un acide."
+  },
+  "Acyl activation": {
+    "zh": "酰基活化",
+    "fr": "Activation d’acyle"
+  },
+  "SOCl2, dry conditions; suitable heating": {
+    "zh": "SOCl2，无水条件；适当加热",
+    "fr": "SOCl2, conditions anhydres ; chauffage adapté"
+  },
+  "C=O remains. OH is a poor leaving group and must be activated. This does not put Cl on the alpha carbon.": {
+    "zh": "C=O 保留。OH 是较差的离去基团，需要先活化。这不会把 Cl 引入 α 碳。",
+    "fr": "C=O est conservé. OH est un mauvais groupe partant et doit être activé. Cela ne place pas Cl sur le carbone alpha."
+  },
+  "Fischer · reversible": {
+    "zh": "Fischer · 可逆",
+    "fr": "Fischer · réversible"
+  },
+  "Alcohol + catalytic acid; often heat. Excess alcohol or removal of water favours ester.": {
+    "zh": "醇 + 催化量酸，常需加热。过量醇或除水有利于生成酯。",
+    "fr": "Alcool + acide catalytique, souvent à chaud. L’excès d’alcool ou l’élimination de l’eau favorise l’ester."
+  },
+  "The reaction is reversible. Strong alkoxide first deprotonates the acid; adding more catalyst does not change K at fixed temperature.": {
+    "zh": "反应可逆。强醇盐先使羧酸脱质子；固定温度下增加催化剂不会改变 K。",
+    "fr": "La réaction est réversible. Un alcoolate fort déprotone d’abord l’acide ; ajouter du catalyseur ne modifie pas K à température fixée."
+  },
+  "Salt → dehydration": {
+    "zh": "成盐 → 脱水",
+    "fr": "Sel → déshydratation"
+  },
+  "Suitable heating/dehydration, or first activate the acid before amine addition": {
+    "zh": "适当加热脱水，或先活化羧酸再加入胺",
+    "fr": "Chauffage/déshydratation adaptés, ou activation préalable de l’acide avant ajout de l’amine"
+  },
+  "At room temperature the initial acid–amine product is usually an ammonium carboxylate salt, not an isolated amide.": {
+    "zh": "室温下，羧酸与胺最初通常形成羧酸铵盐，而非分离出的酰胺。",
+    "fr": "À température ambiante, le premier produit acide–amine est généralement un carboxylate d’ammonium, et non un amide isolé."
+  },
+  "Reduction + workup": {
+    "zh": "还原 + 后处理",
+    "fr": "Réduction + traitement final"
+  },
+  "1. LiAlH4, dry ether/THF  2. aqueous workup": {
+    "zh": "1. LiAlH4，无水乙醚/THF　2. 水溶液后处理",
+    "fr": "1. LiAlH4, éther/THF sec  2. traitement aqueux"
+  },
+  "Preserve the carbon count; complete reduction gives a primary alcohol. Separate reagent stage from water workup.": {
+    "zh": "保留碳数，完全还原生成伯醇。试剂反应阶段与加水后处理应分开。",
+    "fr": "Conservez le nombre de carbones ; la réduction complète donne un alcool primaire. Séparez l’étape du réactif du traitement aqueux."
+  },
+  "HVZ · alpha-H": {
+    "zh": "HVZ · α-H",
+    "fr": "HVZ · H alpha"
+  },
+  "Br2 with P/PBr3; appropriate final exchange/water processing": {
+    "zh": "Br2 配合 P/PBr3；最终适当进行交换或水处理",
+    "fr": "Br2 avec P/PBr3 ; échange ou traitement aqueux final approprié"
+  },
+  "Requires alpha-H. Distinguish Br on the acyl group from Br at the alpha carbon. Exchange regenerates acyl bromide.": {
+    "zh": "需要 α-H。区分酰基上的 Br 和 α 碳上的 Br；交换会再生酰溴。",
+    "fr": "Un H alpha est nécessaire. Distinguez le Br de l’acyle de celui du carbone alpha. L’échange régénère le bromure d’acyle."
+  },
+  "Substitute alpha-Br": {
+    "zh": "替换 α-Br",
+    "fr": "Substituer le Br alpha"
+  },
+  "Aqueous base, then acidification": {
+    "zh": "碱性水溶液，随后酸化",
+    "fr": "Base aqueuse, puis acidification"
+  },
+  "Substitution changes alpha-Br to OH. Base produces a carboxylate stage that must be acidified for the free acid.": {
+    "zh": "取代使 α-Br 变成 OH。碱性阶段生成羧酸根，需酸化才得到游离酸。",
+    "fr": "La substitution remplace le Br alpha par OH. La base donne un carboxylate qu’il faut acidifier pour obtenir l’acide libre."
+  },
+  "Prepare a one-carbon-longer acid": {
+    "zh": "制备多一个碳的羧酸",
+    "fr": "Préparer un acide à un carbone de plus"
+  },
+  "Compare nitrile hydrolysis and Grignard carbonation routes from a suitable haloalkane. Give the carbon count, ordered reagents, and one functional group that changes your route choice.": {
+    "zh": "从适当卤代烷出发，比较腈水解与格氏羧化路线。写出碳数、按顺序使用的试剂，以及一种会改变路线选择的官能团。",
+    "fr": "À partir d’un haloalcane adapté, comparez les voies par hydrolyse d’un nitrile et carboxylation de Grignard. Indiquez le nombre de carbones, l’ordre des réactifs et une fonction qui modifie votre choix de voie."
+  },
+  "CO2 or CN introduces one carbon.": {
+    "zh": "CO2 或 CN 引入一个碳。",
+    "fr": "CO2 ou CN introduit un carbone."
+  },
+  "Aqueous workup follows the reactive organometallic stage.": {
+    "zh": "先完成活泼有机金属反应，再进行水溶液后处理。",
+    "fr": "Le traitement aqueux suit l’étape organométallique réactive."
+  },
+  "Free protic / carbonyl groups need compatibility checks.": {
+    "zh": "检查游离含活泼氢基团及羰基的兼容性。",
+    "fr": "Vérifiez la compatibilité des groupes protiques libres et des carbonyles."
+  },
+  "Three transformations from a carboxylic acid": {
+    "zh": "羧酸出发的三种转化",
+    "fr": "Trois transformations d’un acide carboxylique"
+  },
+  "Starting from a simple carboxylic acid, draw its acyl chloride, primary alcohol and ester. Supply conditions and state which carbon skeleton changes, if any.": {
+    "zh": "从一种简单羧酸出发，画出其酰氯、伯醇和酯，写出条件，并说明碳骨架是否变化。",
+    "fr": "À partir d’un acide carboxylique simple, dessinez son chlorure d’acyle, son alcool primaire et son ester. Donnez les conditions et précisez les éventuelles modifications du squelette carboné."
+  },
+  "SOCl2 gives an acyl chloride with C=O retained.": {
+    "zh": "SOCl2 生成酰氯，C=O 保留。",
+    "fr": "SOCl2 donne un chlorure d’acyle en conservant C=O."
+  },
+  "LiAlH4 then water gives a neutral primary alcohol.": {
+    "zh": "LiAlH4 后加水得到中性伯醇。",
+    "fr": "LiAlH4 puis eau donne un alcool primaire neutre."
+  },
+  "Fischer esterification requires alcohol and catalytic acid.": {
+    "zh": "Fischer 酯化需要醇和催化量酸。",
+    "fr": "L’estérification de Fischer nécessite un alcool et un acide catalytique."
+  },
+  "Explain an esterification elementary step": {
+    "zh": "解释酯化的一个基元步骤",
+    "fr": "Expliquer une étape élémentaire d’estérification"
+  },
+  "From the O-protonated acid and methanol, draw the paired arrows, the immediate charged adduct and the water-assisted deprotonation. Explain how excess alcohol or water changes the equilibrium.": {
+    "zh": "从氧质子化的羧酸与甲醇出发，画出配套箭头、立即形成的带电加合物，以及水辅助脱质子步骤。解释过量醇或水如何影响平衡。",
+    "fr": "À partir de l’acide protoné sur O et du méthanol, tracez les deux flèches, l’adduit chargé immédiat et la déprotonation assistée par l’eau. Expliquez l’effet d’un excès d’alcool ou d’eau sur l’équilibre."
+  },
+  "Both addition arrows are present.": {
+    "zh": "两支加成箭头均已画出。",
+    "fr": "Les deux flèches d’addition sont présentes."
+  },
+  "The attacking oxygen is initially positive.": {
+    "zh": "进攻氧最初带正电荷。",
+    "fr": "L’oxygène attaquant est initialement positif."
+  },
+  "Water accepts the proton; acid is not silently deleted.": {
+    "zh": "水接受质子，不能不加说明地删去酸。",
+    "fr": "L’eau accepte le proton ; l’acide ne disparaît pas sans explication."
+  },
+  "Use HVZ without mixing up the bromines": {
+    "zh": "运用 HVZ 并区分两个溴",
+    "fr": "Utiliser HVZ sans confondre les bromes"
+  },
+  "State the alpha-H requirement. Complete the two local acyl-exchange frames from the lecture, then outline the subsequent conversion of an alpha-bromo acid into an alpha-hydroxy or alpha-amino acid.": {
+    "zh": "说明 α-H 的要求。完成课件中的两个局部酰基交换帧，再概述将 α-溴代酸转化为 α-羟基酸或 α-氨基酸的后续过程。",
+    "fr": "Précisez la nécessité d’un H alpha. Complétez les deux images locales d’échange d’acyle du cours, puis présentez la conversion ultérieure d’un alpha-bromoacide en alpha-hydroxyacide ou alpha-aminoacide."
+  },
+  "Ordinary acid carbonyl oxygen attacks in this supplied route.": {
+    "zh": "本题给定路线中，普通羧酸的羰基氧发起进攻。",
+    "fr": "Dans cette voie fournie, l’oxygène du carbonyle de l’acide ordinaire attaque."
+  },
+  "The addition is zwitterionic; the first collapse loses acyl Br.": {
+    "zh": "加成生成两性离子；第一次塌陷失去酰基 Br。",
+    "fr": "L’addition donne un zwitterion ; le premier effondrement élimine le Br de l’acyle."
+  },
+  "Alpha-Br remains available for later substitution.": {
+    "zh": "α-Br 保留，可用于后续取代。",
+    "fr": "Le Br alpha reste disponible pour une substitution ultérieure."
+  },
+  "Design and justify a short nitrile synthesis": {
+    "zh": "设计并论证一条简短腈合成路线",
+    "fr": "Concevoir et justifier une courte synthèse via un nitrile"
+  },
+  "Convert 1-bromopropane into butanoic acid through a nitrile. Show each intermediate, conditions and final acid–base state. Explain why the analogous ordinary SN2 route is unsuitable for a tertiary halide.": {
+    "zh": "经腈将 1-溴丙烷转化为丁酸。画出各中间体、条件及最终酸碱状态，并解释为什么类似的普通 SN2 路线不适用于叔卤代烷。",
+    "fr": "Transformez le 1-bromopropane en acide butanoïque via un nitrile. Montrez chaque intermédiaire, les conditions et l’état acido-basique final. Expliquez pourquoi une voie SN2 ordinaire analogue ne convient pas à un halogénure tertiaire."
+  },
+  "Butanenitrile has four carbons.": {
+    "zh": "丁腈有四个碳。",
+    "fr": "Le butanenitrile possède quatre carbones."
+  },
+  "Hydrolysis is heated and aqueous.": {
+    "zh": "水解需要加热，并在水溶液中进行。",
+    "fr": "L’hydrolyse se fait à chaud en milieu aqueux."
+  },
+  "Basic hydrolysis includes a final acidification.": {
+    "zh": "碱性水解后需最终酸化。",
+    "fr": "L’hydrolyse basique comprend une acidification finale."
+  },
+  "Rebuild the reaction map": {
+    "zh": "重建反应图谱",
+    "fr": "Reconstruire la carte des réactions"
+  },
+  "15 min": {
+    "zh": "15 分钟",
+    "fr": "15 min"
+  },
+  "Trace the acid hub": {
+    "zh": "梳理羧酸核心节点",
+    "fr": "Explorer le nœud des acides"
+  },
+  "Recall where each carbon comes from and where each route ends.": {
+    "zh": "回忆每个碳来自哪里，以及每条路线最终通向何处。",
+    "fr": "Rappelez-vous l’origine de chaque carbone et l’aboutissement de chaque voie."
+  },
+  "35 min": {
+    "zh": "35 分钟",
+    "fr": "35 min"
+  },
+  "Cover and recall": {
+    "zh": "遮盖并回忆",
+    "fr": "Masquer et se rappeler"
+  },
+  "Use the six drawing / conditions cards; open hints only when stuck.": {
+    "zh": "完成六张绘图或条件卡；仅在卡住时查看提示。",
+    "fr": "Utilisez les six cartes de dessin ou de conditions ; n’ouvrez les indices qu’en cas de blocage."
+  },
+  "25 min": {
+    "zh": "25 分钟",
+    "fr": "25 min"
+  },
+  "Repair weak points": {
+    "zh": "巩固薄弱点",
+    "fr": "Revoir les points faibles"
+  },
+  "Return to the steps that required help. Keep the rest closed.": {
+    "zh": "返回需要帮助的步骤，其他内容暂不展开。",
+    "fr": "Revenez aux étapes ayant demandé de l’aide. Gardez les autres fermées."
+  },
+  "Turn recall into exam answers": {
+    "zh": "将回忆转化为考试答案",
+    "fr": "Transformer le rappel en réponses d’examen"
+  },
+  "A second cold recall": {
+    "zh": "再次独立回忆",
+    "fr": "Un second rappel sans aide"
+  },
+  "Revisit yesterday’s weak reaction edges without looking.": {
+    "zh": "不看答案，重新回忆昨天薄弱的反应连接。",
+    "fr": "Reprenez sans regarder les connexions de réaction difficiles de la veille."
+  },
+  "50 min": {
+    "zh": "50 分钟",
+    "fr": "50 min"
+  },
+  "Four or five integrated problems": {
+    "zh": "四至五道综合题",
+    "fr": "Quatre ou cinq problèmes intégrés"
+  },
+  "Choose the most relevant prompts; write connected answers rather than six isolated facts.": {
+    "zh": "选择最相关的题目，写出连贯答案，而非六条孤立事实。",
+    "fr": "Choisissez les sujets les plus pertinents et rédigez des réponses cohérentes plutôt que six faits isolés."
+  },
+  "10 min": {
+    "zh": "10 分钟",
+    "fr": "10 min"
+  },
+  "Final error pass": {
+    "zh": "最后核查易错点",
+    "fr": "Dernière vérification des erreurs"
+  },
+  "Check charges, companion arrows, carbon counts and the workup.": {
+    "zh": "检查电荷、配套箭头、碳数及后处理。",
+    "fr": "Vérifiez les charges, les flèches complémentaires, le nombre de carbones et le traitement final."
+  }
+}

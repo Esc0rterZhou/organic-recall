@@ -11,3 +11,5 @@ dist/vendor/
 dist/editor/
 cache/
 pnpm-lock.yaml
+
+site-binary-transfer.json

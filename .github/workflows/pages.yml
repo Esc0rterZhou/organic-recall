@@ -23,9 +23,13 @@ jobs:
     steps:
       - name: Check out website
         uses: actions/checkout@v6
+      - name: Use Node.js 24
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
       - name: Install pinned build dependency
-        run: npm install --ignore-scripts --omit=optional --no-audit --no-fund
-      - name: Bundle PDF.js and standalone Ketcher for browser use
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Bundle PDF reader and account client for browser use
         run: npm run build
       - name: Verify content and independence
         run: npm run check

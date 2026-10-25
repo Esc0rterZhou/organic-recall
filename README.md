@@ -1,67 +1,56 @@
-# Organic Recall
+# Organic Recall 3
 
-Independent organic chemistry review in English. Public site: https://esc0rterzhou.github.io/organic-recall/
+Public site: https://esc0rterzhou.github.io/organic-recall/
 
-No GPT, ChatGPT account, OpenAI API or API key is needed. GitHub Pages serves static files; PDF processing, structure editing, checks and progress storage run in the visitor's browser.
+An independent organic chemistry workspace with English, Chinese and French interfaces, questions, options and explanations. It requires no GPT account or model API. GitHub Pages serves the site. Supabase, when configured, supplies username/password authentication and private cross-device progress.
 
-## Choose a chapter
+## Learning
 
-The homepage shows all 26 chapters, with a prominent Choose chapter selector, search and chapter groups. Select a chapter, then start its recall quiz or add lecture PDFs. Chapter 19 also offers a Visual practice link to the separate Exam Studio at review.html. The studio includes a visible return to all chapters.
+- All 26 textbook chapters remain selectable from the homepage study pass and Chapters catalogue.
+- 236 original basic questions, including 36 in Chapter 19. All questions and 259 section titles have Chinese and French translations; original PDF text stays in its source language.
+- The Visual lab is a first-level navigation item. Six Chapter 19 exercises use group tiles, click-to-place electron arrows, intermediate choices and ordered reagent slots. No full drawing editor is required. Original reaction graphs, formal-charge checks, explicit proton tracking and paired-arrow checks are retained.
+- The reaction map and five integrated prompts remain under Visual lab. Conditions stay hidden until revealed. Wrong checks and hints flag points for review.
+- Original textbook references open the internal reading room. Select a local textbook once; PDF.js renders its pages inside the website. IndexedDB remembers the file when storage permits. Chapter navigation, section jumps, page controls, zoom and bookmarks work inside the site. The 53 MB source textbook has been used for local browser QA, but is not published or redistributed.
+- Lecture PDF upload has been removed. Course content is updated centrally by the maintainer after receiving teaching materials outside the website.
+- Language and reduced-motion preferences live under Settings. User progress, quiz drafts, visual attempts, notes and reading bookmarks are stored per profile. Guest data is separate; copying guest progress into an account is explicit.
 
-## Exam Studio: Chapter 19 pilot
-
-The Chapter 19 Exam Studio offers a prepared reaction map, six active-recall cards, an automatic weak-point list and five integrated prompts. The two-day plan totals 150 minutes, without a scheduling setup flow.
-
-- Two product drawings: acyl chloride formation and carboxylic acid reduction.
-- One ordered-conditions task: Grignard carbonation and acid workup.
-- Two mechanism tasks: paired electron movements and intermediate structures in selected Fischer esterification and HVZ acyl-exchange steps.
-- One two-transformation synthesis: cyanation followed by heated aqueous nitrile hydrolysis.
-
-Ketcher 3.18.0 standalone provides copied substrates, atoms, bonds, charges, templates, undo, redo and layout. Electron-pair arrows use a separate SVG canvas with semantic atom/bond anchors, click or drag input, undo and redo. A whole-step check requires both the intermediate and the complete annotated arrow set. Drawings and notes save locally; frames can be revisited or copied forward.
-
-Checks compare small-molecule connectivity, bond orders and formal charges while ignoring layout and atom numbering. Explicit hydrogens are retained in proton-tracking frames. Only the supplied source-annotated steps are checked. Arbitrary mechanisms, unrestricted synthetic routes, stereochemistry and query structures are outside the pilot's automatic grading scope. Integrated written answers use a self-check list.
-
-The actual lecture PDF can be rendered locally under Lecture image cover. Drag covers over products or conditions, then reveal each one individually. Image PDFs work without OCR for this visual mode. Lecture 2 PDF page 35 is original slide 32. The original PDF is never uploaded or bundled.
-
-## Basic practice is preserved
-
-Basic practice contains 236 original multiple-choice questions across the 26 textbook chapters, including 36 Chapter 19 questions. Readable lecture PDF topics select questions from the prepared bank; the app does not generate arbitrary new questions or recognize every chemical structure. Scanned PDF text matching needs OCR first. File limit: 50 MB and 250 pages per lecture.
-
-Questions reference Vollhardt & Schore, Organic Chemistry: Structure and Function, sixth edition, and the supplied Chapter 19 lectures. References use PDF file-page numbers rather than printed page numbers. Link the original 1,374-page textbook in Basic practice for page viewing. References are not a claim of human review or measured exam frequency.
+The default homepage uses an original generated dusk cloudscape, dark surfaces, fine borders and a translucent study pass based on the supplied design references. The original reference video and design documents are not deployed.
 
 ## Run and build
 
-The standalone download includes the complete dist directory, including the editor and PDF parser. With Node.js 22.12 or later, run:
+The standalone download includes the complete dist directory, including the local PDF parser and account client. Serve it over HTTP; with Node.js 22.12 or later:
 
-```sh
-node server.mjs
-```
+    node server.mjs
 
-Open http://127.0.0.1:4174/. Any static HTTP server can serve dist as well.
+Open http://127.0.0.1:4174/. For a fresh source checkout:
 
-For a fresh source checkout:
+    npm install --ignore-scripts --no-audit --no-fund
+    npm run build
+    npm run check
 
-```sh
-npm install --ignore-scripts --omit=optional --no-audit --no-fund
-npm run build
-npm run check
-```
+Pinned PDF.js and Supabase client assets are bundled locally. The published application has no remote script or stylesheet CDN. A configured account signs in and syncs only with the declared Supabase project. No private service-role key is allowed in browser configuration.
 
-Build downloads pinned PDF.js from npm and the official Ketcher standalone release from GitHub. Ketcher's SHA-256 is verified before extraction. Windows uses tar; Linux uses unzip. These downloads happen during build, not as a runtime dependency on another application server.
+## Private username accounts
 
-To test a GitHub project prefix in PowerShell:
+Registration uses a username and password. No email address, university domain, mail sender or GPT account is needed. Usernames are case-insensitive, 3–24 ASCII letters, digits or underscores. Passwords are 10–64 characters and at most 72 UTF-8 bytes.
 
-```powershell
-$env:BASE_PATH='organic-recall'
-node server.mjs
-```
+The registration service creates a Supabase Auth UUID and an opaque internal identity; the synthetic address is never a mailbox or a user-facing login field. Supabase Auth manages password hashing. Each UUID owns its own progress row. Row Level Security and the save function enforce ownership, including the owner captured before asynchronous account switches. Revision conflicts merge records by item timestamp. Guest progress remains separate until explicitly imported.
 
-Open http://127.0.0.1:4174/organic-recall/.
+Registration displays a random 192-bit recovery code. Save it when shown. Only its SHA-256 hash is stored by the backend; the raw code is not stored in progress or backups. Recovery requires the username, code and new password, preserves the UUID and progress, and generates a replacement code. The previous code then stops working. Without the password or recovery code, self-service recovery is unavailable.
 
-## Publish and data
+To deploy another instance:
 
-The GitHub Actions workflow builds, verifies and publishes dist on pushes to main. Repository Settings → Pages uses GitHub Actions. The same dist can be hosted on any static host without ChatGPT at runtime.
+1. Run `supabase/username-setup.sql` in the project's SQL editor. It creates private profiles, progress, recovery and rate-limit functions with explicit grants and RLS.
+2. Deploy `supabase/functions/username-auth/index.ts` as `username-auth`. Its public registration/recovery endpoint uses its own input, rate-limit and recovery checks; set legacy JWT verification off for this function, as specified in `supabase/config.toml`. The service key stays in Supabase's server environment and is never copied into the browser.
+3. Disable direct public Auth signups; this application's server function creates managed users. Keep the Email password provider enabled. No SMTP is required.
+4. Set the project's public URL and publishable key in `dist/account-config.json`. Add the deployment origin to the function's explicit CORS allowlist if hosting elsewhere. Use only a public publishable key in frontend files.
+5. Set `registrationReady` true after registration, login, owner isolation and recovery work against the live backend. The supplied public configuration points to the deployed Organic Recall project.
 
-Progress is stored per browser and origin, without cloud synchronization. Studio and Basic practice maintain separate progress. Export study backups before moving devices; Basic practice also supports restoring its progress backups. Reopen local PDFs after refreshing. Cover positions are saved, but the PDF bytes are not.
+Live QA verified two independent users, private progress reads/writes, denied cross-owner access, private recovery hashes, guest denial, recovery rotation, rejected old passwords/codes, preserved progress and revision conflicts. No test credentials are distributed.
 
-Third-party licenses and source links are documented in THIRD-PARTY-NOTICES.md. Ketcher's license is bundled at dist/editor/LICENSE.txt; PDF.js's license at dist/vendor/PDFJS-LICENSE.txt. Original copyrighted textbooks and lecture PDFs are not redistributed.
+
+## Publication
+
+Push to main to run the GitHub Pages workflow. index.html is the new home; practice.html and review.html remain compatible entry pages for Chapters and Visual lab. The exported dist directory can also be served by another static host. Original sources, PDFs, private user data, reference video and credentials are excluded from publication.
+
+Third-party license details are in THIRD-PARTY-NOTICES.md. The older full-editor workspace remains available in local development history; v3's published exercises do not need its large runtime.
