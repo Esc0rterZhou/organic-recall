@@ -1,0 +1,205 @@
+{
+  "title": "Organic Chemistry: Structure and Function",
+  "edition": 6,
+  "totalPages": 1374,
+  "sourceSha256": "5df604f7216598553c3443578a7fe6d3027cfe190c4e2b2c291910a46ad3e2d7",
+  "parts": [
+    {
+      "id": "front",
+      "start": 1,
+      "end": 34,
+      "url": "front.pdf",
+      "bytes": 1738115
+    },
+    {
+      "id": "chapter-01",
+      "start": 35,
+      "end": 82,
+      "url": "chapter-01.pdf",
+      "bytes": 1942877
+    },
+    {
+      "id": "chapter-02",
+      "start": 83,
+      "end": 128,
+      "url": "chapter-02.pdf",
+      "bytes": 1414199
+    },
+    {
+      "id": "chapter-03",
+      "start": 129,
+      "end": 164,
+      "url": "chapter-03.pdf",
+      "bytes": 1219659
+    },
+    {
+      "id": "chapter-04",
+      "start": 165,
+      "end": 202,
+      "url": "chapter-04.pdf",
+      "bytes": 1533057
+    },
+    {
+      "id": "chapter-05",
+      "start": 203,
+      "end": 248,
+      "url": "chapter-05.pdf",
+      "bytes": 2061687
+    },
+    {
+      "id": "chapter-06",
+      "start": 249,
+      "end": 284,
+      "url": "chapter-06.pdf",
+      "bytes": 1469940
+    },
+    {
+      "id": "chapter-07",
+      "start": 285,
+      "end": 320,
+      "url": "chapter-07.pdf",
+      "bytes": 1506130
+    },
+    {
+      "id": "chapter-08",
+      "start": 321,
+      "end": 366,
+      "url": "chapter-08.pdf",
+      "bytes": 1419239
+    },
+    {
+      "id": "chapter-09",
+      "start": 367,
+      "end": 420,
+      "url": "chapter-09.pdf",
+      "bytes": 1688284
+    },
+    {
+      "id": "chapter-10",
+      "start": 421,
+      "end": 478,
+      "url": "chapter-10.pdf",
+      "bytes": 2139147
+    },
+    {
+      "id": "chapter-11",
+      "start": 479,
+      "end": 540,
+      "url": "chapter-11.pdf",
+      "bytes": 2587070
+    },
+    {
+      "id": "chapter-12",
+      "start": 541,
+      "end": 600,
+      "url": "chapter-12.pdf",
+      "bytes": 1967412
+    },
+    {
+      "id": "chapter-13",
+      "start": 601,
+      "end": 642,
+      "url": "chapter-13.pdf",
+      "bytes": 1339244
+    },
+    {
+      "id": "chapter-14",
+      "start": 643,
+      "end": 706,
+      "url": "chapter-14.pdf",
+      "bytes": 2852754
+    },
+    {
+      "id": "chapter-15",
+      "start": 707,
+      "end": 764,
+      "url": "chapter-15.pdf",
+      "bytes": 3613495
+    },
+    {
+      "id": "chapter-16",
+      "start": 765,
+      "end": 808,
+      "url": "chapter-16.pdf",
+      "bytes": 1547431
+    },
+    {
+      "id": "chapter-17",
+      "start": 809,
+      "end": 860,
+      "url": "chapter-17.pdf",
+      "bytes": 1644296
+    },
+    {
+      "id": "chapter-18",
+      "start": 861,
+      "end": 904,
+      "url": "chapter-18.pdf",
+      "bytes": 1730752
+    },
+    {
+      "id": "chapter-19",
+      "start": 905,
+      "end": 958,
+      "url": "chapter-19.pdf",
+      "bytes": 2457415
+    },
+    {
+      "id": "chapter-20",
+      "start": 959,
+      "end": 1004,
+      "url": "chapter-20.pdf",
+      "bytes": 3484075
+    },
+    {
+      "id": "chapter-21",
+      "start": 1005,
+      "end": 1052,
+      "url": "chapter-21.pdf",
+      "bytes": 1664647
+    },
+    {
+      "id": "chapter-22",
+      "start": 1053,
+      "end": 1114,
+      "url": "chapter-22.pdf",
+      "bytes": 2239877
+    },
+    {
+      "id": "chapter-23",
+      "start": 1115,
+      "end": 1150,
+      "url": "chapter-23.pdf",
+      "bytes": 1422416
+    },
+    {
+      "id": "chapter-24",
+      "start": 1151,
+      "end": 1198,
+      "url": "chapter-24.pdf",
+      "bytes": 13563664
+    },
+    {
+      "id": "chapter-25",
+      "start": 1199,
+      "end": 1244,
+      "url": "chapter-25.pdf",
+      "bytes": 2832277
+    },
+    {
+      "id": "chapter-26",
+      "start": 1245,
+      "end": 1304,
+      "url": "chapter-26.pdf",
+      "bytes": 4109647
+    },
+    {
+      "id": "reference",
+      "start": 1305,
+      "end": 1374,
+      "url": "reference.pdf",
+      "bytes": 1399977
+    }
+  ]
+}
+
