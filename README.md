@@ -8,13 +8,13 @@ An independent organic chemistry workspace with English, Chinese and French inte
 
 - All 26 textbook chapters remain selectable from the homepage study pass and Chapters catalogue.
 - 236 original basic questions, including 36 in Chapter 19. All questions and 259 section titles have Chinese and French translations; original PDF text stays in its source language.
-- The Visual lab is a first-level navigation item. Six Chapter 19 exercises use group tiles, click-to-place electron arrows, intermediate choices and ordered reagent slots. No full drawing editor is required. Original reaction graphs, formal-charge checks, explicit proton tracking and paired-arrow checks are retained.
+- The Visual lab opens directly on a particle reaction sphere. Select a reaction node to open one of the six Chapter 19 exercises, which use group tiles, click-to-place electron arrows, intermediate choices and ordered reagent slots. No full drawing editor is required. Original reaction graphs, formal-charge checks, explicit proton tracking and paired-arrow checks are retained.
 - The reaction map and five integrated prompts remain under Visual lab. Conditions stay hidden until revealed. Wrong checks and hints flag points for review.
-- Original textbook references open the internal reading room. Select a local textbook once; PDF.js renders its pages inside the website. IndexedDB remembers the file when storage permits. Chapter navigation, section jumps, page controls, zoom and bookmarks work inside the site. The 53 MB source textbook has been used for local browser QA, but is not published or redistributed.
+- The supplied sixth-edition textbook is built in. PDF.js renders all 1,374 original PDF pages inside the website, including front matter and references. Chapter selection and question references retain original page numbers. Losslessly compressed blocks load only the needed chapter; no file upload or external reader is required. The reader retains two parsed parts in memory and browser HTTP caching avoids repeated downloads.
 - Lecture PDF upload has been removed. Course content is updated centrally by the maintainer after receiving teaching materials outside the website.
 - Language and reduced-motion preferences live under Settings. User progress, quiz drafts, visual attempts, notes and reading bookmarks are stored per profile. Guest data is separate; copying guest progress into an account is explicit.
 
-The default entry page uses the original dusk cloudscape and a glass login panel. The internal workspace has a compact dashboard with a chapter selector, continuation card, progress ring and quick actions. Main reading text is larger, explanatory copy is reduced, and optional guidance is expandable. Navigation uses short content entrances; answer selection updates in place to retain focus. Reduced motion follows both the site setting and the operating system. The original reference video and design documents are not deployed.
+The default entry page uses the original dusk cloudscape and a glass login panel. The chapter and reaction pages use a minimal violet particle stage with a compact selection dock. Animated flowing strands, local cursor attraction, spring return, cursor trails and drag rotation respond to the mouse. Labels stay compact until hover or selection. Keyboard selection, pause, reduced motion and list selectors remain available. Study statistics stay on the dedicated progress page. Main reading text is larger, explanatory copy is reduced, and optional guidance is expandable. Navigation uses short content entrances; answer selection updates in place to retain focus. Reduced motion follows both the site setting and the operating system. The original reference video and design documents are not deployed.
 
 ## Run and build
 
@@ -51,6 +51,6 @@ Live QA verified two independent users, private progress reads/writes, denied cr
 
 ## Publication
 
-Push to main to run the GitHub Pages workflow. index.html is the new home; practice.html and review.html remain compatible entry pages for Chapters and Visual lab. The exported dist directory can also be served by another static host. Original sources, PDFs, private user data, reference video and credentials are excluded from publication.
+Push to main to run the GitHub Pages workflow. index.html is the new home; practice.html and review.html remain compatible entry pages for Chapters and Visual lab. The exported dist directory can also be served by another static host. Lecture PDFs, private user data, reference video and private credentials are excluded from publication. The supplied textbook is included as chapter blocks under dist/textbook.
 
 Third-party license details are in THIRD-PARTY-NOTICES.md. The older full-editor workspace remains available in local development history; v3's published exercises do not need its large runtime.

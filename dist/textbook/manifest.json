@@ -8,198 +8,385 @@
       "id": "front",
       "start": 1,
       "end": 34,
-      "url": "front.pdf",
-      "bytes": 1738115
+      "bytes": 1528368,
+      "uncompressedBytes": 1738115,
+      "encoding": "gzip",
+      "urls": [
+        "front.00.bin",
+        "front.01.bin",
+        "front.02.bin"
+      ]
     },
     {
       "id": "chapter-01",
       "start": 35,
       "end": 82,
-      "url": "chapter-01.pdf",
-      "bytes": 1942877
+      "bytes": 1454639,
+      "uncompressedBytes": 1942877,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-01.00.bin",
+        "chapter-01.01.bin",
+        "chapter-01.02.bin"
+      ]
     },
     {
       "id": "chapter-02",
       "start": 83,
       "end": 128,
-      "url": "chapter-02.pdf",
-      "bytes": 1414199
+      "bytes": 1129473,
+      "uncompressedBytes": 1414199,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-02.00.bin",
+        "chapter-02.01.bin"
+      ]
     },
     {
       "id": "chapter-03",
       "start": 129,
       "end": 164,
-      "url": "chapter-03.pdf",
-      "bytes": 1219659
+      "bytes": 1049956,
+      "uncompressedBytes": 1219659,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-03.00.bin",
+        "chapter-03.01.bin"
+      ]
     },
     {
       "id": "chapter-04",
       "start": 165,
       "end": 202,
-      "url": "chapter-04.pdf",
-      "bytes": 1533057
+      "bytes": 1365671,
+      "uncompressedBytes": 1533057,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-04.00.bin",
+        "chapter-04.01.bin",
+        "chapter-04.02.bin"
+      ]
     },
     {
       "id": "chapter-05",
       "start": 203,
       "end": 248,
-      "url": "chapter-05.pdf",
-      "bytes": 2061687
+      "bytes": 1283749,
+      "uncompressedBytes": 2061687,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-05.00.bin",
+        "chapter-05.01.bin",
+        "chapter-05.02.bin"
+      ]
     },
     {
       "id": "chapter-06",
       "start": 249,
       "end": 284,
-      "url": "chapter-06.pdf",
-      "bytes": 1469940
+      "bytes": 1226242,
+      "uncompressedBytes": 1469940,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-06.00.bin",
+        "chapter-06.01.bin",
+        "chapter-06.02.bin"
+      ]
     },
     {
       "id": "chapter-07",
       "start": 285,
       "end": 320,
-      "url": "chapter-07.pdf",
-      "bytes": 1506130
+      "bytes": 1023619,
+      "uncompressedBytes": 1506130,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-07.00.bin",
+        "chapter-07.01.bin"
+      ]
     },
     {
       "id": "chapter-08",
       "start": 321,
       "end": 366,
-      "url": "chapter-08.pdf",
-      "bytes": 1419239
+      "bytes": 1079251,
+      "uncompressedBytes": 1419239,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-08.00.bin",
+        "chapter-08.01.bin"
+      ]
     },
     {
       "id": "chapter-09",
       "start": 367,
       "end": 420,
-      "url": "chapter-09.pdf",
-      "bytes": 1688284
+      "bytes": 1297988,
+      "uncompressedBytes": 1688284,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-09.00.bin",
+        "chapter-09.01.bin",
+        "chapter-09.02.bin"
+      ]
     },
     {
       "id": "chapter-10",
       "start": 421,
       "end": 478,
-      "url": "chapter-10.pdf",
-      "bytes": 2139147
+      "bytes": 1460541,
+      "uncompressedBytes": 2139147,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-10.00.bin",
+        "chapter-10.01.bin",
+        "chapter-10.02.bin"
+      ]
     },
     {
       "id": "chapter-11",
       "start": 479,
       "end": 540,
-      "url": "chapter-11.pdf",
-      "bytes": 2587070
+      "bytes": 1648808,
+      "uncompressedBytes": 2587070,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-11.00.bin",
+        "chapter-11.01.bin",
+        "chapter-11.02.bin"
+      ]
     },
     {
       "id": "chapter-12",
       "start": 541,
       "end": 600,
-      "url": "chapter-12.pdf",
-      "bytes": 1967412
+      "bytes": 1453589,
+      "uncompressedBytes": 1967412,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-12.00.bin",
+        "chapter-12.01.bin",
+        "chapter-12.02.bin"
+      ]
     },
     {
       "id": "chapter-13",
       "start": 601,
       "end": 642,
-      "url": "chapter-13.pdf",
-      "bytes": 1339244
+      "bytes": 1038806,
+      "uncompressedBytes": 1339244,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-13.00.bin",
+        "chapter-13.01.bin"
+      ]
     },
     {
       "id": "chapter-14",
       "start": 643,
       "end": 706,
-      "url": "chapter-14.pdf",
-      "bytes": 2852754
+      "bytes": 1804756,
+      "uncompressedBytes": 2852754,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-14.00.bin",
+        "chapter-14.01.bin",
+        "chapter-14.02.bin",
+        "chapter-14.03.bin"
+      ]
     },
     {
       "id": "chapter-15",
       "start": 707,
       "end": 764,
-      "url": "chapter-15.pdf",
-      "bytes": 3613495
+      "bytes": 2004809,
+      "uncompressedBytes": 3613495,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-15.00.bin",
+        "chapter-15.01.bin",
+        "chapter-15.02.bin",
+        "chapter-15.03.bin"
+      ]
     },
     {
       "id": "chapter-16",
       "start": 765,
       "end": 808,
-      "url": "chapter-16.pdf",
-      "bytes": 1547431
+      "bytes": 1143724,
+      "uncompressedBytes": 1547431,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-16.00.bin",
+        "chapter-16.01.bin"
+      ]
     },
     {
       "id": "chapter-17",
       "start": 809,
       "end": 860,
-      "url": "chapter-17.pdf",
-      "bytes": 1644296
+      "bytes": 1126630,
+      "uncompressedBytes": 1644296,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-17.00.bin",
+        "chapter-17.01.bin"
+      ]
     },
     {
       "id": "chapter-18",
       "start": 861,
       "end": 904,
-      "url": "chapter-18.pdf",
-      "bytes": 1730752
+      "bytes": 1208819,
+      "uncompressedBytes": 1730752,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-18.00.bin",
+        "chapter-18.01.bin",
+        "chapter-18.02.bin"
+      ]
     },
     {
       "id": "chapter-19",
       "start": 905,
       "end": 958,
-      "url": "chapter-19.pdf",
-      "bytes": 2457415
+      "bytes": 1652876,
+      "uncompressedBytes": 2457415,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-19.00.bin",
+        "chapter-19.01.bin",
+        "chapter-19.02.bin"
+      ]
     },
     {
       "id": "chapter-20",
       "start": 959,
       "end": 1004,
-      "url": "chapter-20.pdf",
-      "bytes": 3484075
+      "bytes": 2771156,
+      "uncompressedBytes": 3484075,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-20.00.bin",
+        "chapter-20.01.bin",
+        "chapter-20.02.bin",
+        "chapter-20.03.bin",
+        "chapter-20.04.bin"
+      ]
     },
     {
       "id": "chapter-21",
       "start": 1005,
       "end": 1052,
-      "url": "chapter-21.pdf",
-      "bytes": 1664647
+      "bytes": 1321783,
+      "uncompressedBytes": 1664647,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-21.00.bin",
+        "chapter-21.01.bin",
+        "chapter-21.02.bin"
+      ]
     },
     {
       "id": "chapter-22",
       "start": 1053,
       "end": 1114,
-      "url": "chapter-22.pdf",
-      "bytes": 2239877
+      "bytes": 1615638,
+      "uncompressedBytes": 2239877,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-22.00.bin",
+        "chapter-22.01.bin",
+        "chapter-22.02.bin"
+      ]
     },
     {
       "id": "chapter-23",
       "start": 1115,
       "end": 1150,
-      "url": "chapter-23.pdf",
-      "bytes": 1422416
+      "bytes": 916885,
+      "uncompressedBytes": 1422416,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-23.00.bin",
+        "chapter-23.01.bin"
+      ]
     },
     {
       "id": "chapter-24",
       "start": 1151,
       "end": 1198,
-      "url": "chapter-24.pdf",
-      "bytes": 13563664
+      "bytes": 12816542,
+      "uncompressedBytes": 13563664,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-24.00.bin",
+        "chapter-24.01.bin",
+        "chapter-24.02.bin",
+        "chapter-24.03.bin",
+        "chapter-24.04.bin",
+        "chapter-24.05.bin",
+        "chapter-24.06.bin",
+        "chapter-24.07.bin",
+        "chapter-24.08.bin",
+        "chapter-24.09.bin",
+        "chapter-24.10.bin",
+        "chapter-24.11.bin",
+        "chapter-24.12.bin",
+        "chapter-24.13.bin",
+        "chapter-24.14.bin",
+        "chapter-24.15.bin",
+        "chapter-24.16.bin",
+        "chapter-24.17.bin",
+        "chapter-24.18.bin",
+        "chapter-24.19.bin",
+        "chapter-24.20.bin",
+        "chapter-24.21.bin"
+      ]
     },
     {
       "id": "chapter-25",
       "start": 1199,
       "end": 1244,
-      "url": "chapter-25.pdf",
-      "bytes": 2832277
+      "bytes": 2518809,
+      "uncompressedBytes": 2832277,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-25.00.bin",
+        "chapter-25.01.bin",
+        "chapter-25.02.bin",
+        "chapter-25.03.bin",
+        "chapter-25.04.bin"
+      ]
     },
     {
       "id": "chapter-26",
       "start": 1245,
       "end": 1304,
-      "url": "chapter-26.pdf",
-      "bytes": 4109647
+      "bytes": 3404749,
+      "uncompressedBytes": 4109647,
+      "encoding": "gzip",
+      "urls": [
+        "chapter-26.00.bin",
+        "chapter-26.01.bin",
+        "chapter-26.02.bin",
+        "chapter-26.03.bin",
+        "chapter-26.04.bin",
+        "chapter-26.05.bin"
+      ]
     },
     {
       "id": "reference",
       "start": 1305,
       "end": 1374,
-      "url": "reference.pdf",
-      "bytes": 1399977
+      "bytes": 1248340,
+      "uncompressedBytes": 1399977,
+      "encoding": "gzip",
+      "urls": [
+        "reference.00.bin",
+        "reference.01.bin",
+        "reference.02.bin"
+      ]
     }
   ]
 }
-
