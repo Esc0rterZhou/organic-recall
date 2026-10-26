@@ -158,7 +158,7 @@ body:has(.immersive-navigator) .site-footer{display:none}
 .reaction-sphere .sphere-anchor.is-active{background:#dda2ff13;box-shadow:0 0 20px #c07aff44}
 .reaction-navigator .reaction-dock-row{margin-top:0}.reaction-dock-row .selection-dock .dock-copy h2{font-size:23px}
 @media(max-width:650px){
- .immersive-navigator .reaction-sphere .sphere-stage{height:570px;margin:0 -9px}
+ .immersive-navigator .reaction-sphere .sphere-stage{height:650px;margin:0 -9px}
  .immersive-navigator .reaction-sphere .sphere-node.reaction-callout{padding:10px 8px;gap:5px;border-radius:6px}
  .reaction-callout .callout-name{display:none}
  .reaction-callout .callout-short{display:block;font-size:12px;font-weight:550;padding-top:9px;line-height:1.2;width:100%;overflow-wrap:anywhere}
@@ -167,3 +167,21 @@ body:has(.immersive-navigator) .site-footer{display:none}
  .sphere-gesture{bottom:8px;left:10px;font-size:11px}
  .reaction-dock-row .selection-dock .dock-copy h2{font-size:20px}
 }
+
+/* Dense chemical atlas, direct reaction entry, and elementary-step playback. */
+.sphere-stage>.particle-field{z-index:0}.sphere-stage>canvas:not(.particle-field){z-index:1}.sphere-labels{z-index:2}.sphere-gesture,.molecule-caption{z-index:3}
+.molecule-caption{position:absolute;bottom:13px;right:15px;color:#dec3f3;font:13px var(--mono);padding:7px 12px;border:1px solid #c991ef2b;background:#1c1025a3;border-radius:20px;pointer-events:none}
+.reaction-mode-switch{display:flex;gap:7px;position:relative;margin:14px 0 0;z-index:5}.reaction-mode-switch button{font:13px var(--sans);padding:7px 13px;min-height:34px;color:#bfa8d2;border:1px solid #d5a1f22b;border-radius:20px;background:transparent}.reaction-mode-switch button[aria-pressed=true]{color:#f3deff;background:#ab5ce524;border-color:#c084ed66}.reaction-mode-switch button span{font-size:11px;color:#dcc0ee;margin-left:3px}
+.reaction-callout .callout-kind{display:block;font:10px/1.2 var(--sans);color:#b69ec8;letter-spacing:.025em;max-width:100%;white-space:nowrap}.reaction-callout .mechanism-kind{color:#e9c5ff}.reaction-callout:has(.mechanism-kind){border-left:2px solid #c58bf5!important}
+.reaction-callout .callout-name,.reaction-callout .callout-short{padding-top:0}.reaction-callout .callout-name{padding-right:0}.reaction-callout .sphere-enter{display:none}.reaction-sphere .sphere-node span{transform:none!important}
+.sphere-stage.is-entering .reaction-callout{pointer-events:none}.sphere-stage.is-entering .reaction-callout:not([aria-pressed=true]){opacity:.48!important}.sphere-stage.is-entering .reaction-callout[aria-pressed=true]{box-shadow:0 0 40px #b96aff44,inset 2px 0 #eccaff}
+.mechanism-step-label{display:flex;justify-content:space-between;align-items:center;color:#dcb7f7;margin-bottom:10px;font:15px var(--sans)}.mechanism-step-label span:first-child{font-weight:600}.mechanism-step-label span:last-child{font:13px var(--mono);color:#ad91bf}
+.arrow-board{position:relative;overflow:hidden}.mechanism-demo,.mechanism-product{position:absolute;inset:0;opacity:0;pointer-events:none;display:grid;place-items:center;transition:opacity 240ms ease}.mechanism-demo{background:var(--science)}.mechanism-demo .electron-svg,.mechanism-product .molecule-svg{width:100%;height:100%;max-height:none}.mechanism-product{background:#f5f1fa}.arrow-board.is-playing #electron-area{opacity:0;pointer-events:none}.arrow-board.is-playing .mechanism-demo{opacity:1}.arrow-board.show-product .mechanism-demo{opacity:0}.arrow-board.show-product .mechanism-product{opacity:1}.mechanism-playback{display:flex;align-items:center;gap:15px;margin:8px 0 20px}.mechanism-playback button{font-size:14px;padding:10px 15px}.mechanism-playback [hidden]{display:none}.mechanism-demo .electron-arrow{stroke-dasharray:1;stroke-dashoffset:1;animation:electron-flow 780ms ease-out forwards;stroke:#9952ba}.arrow-caption strong{color:#bc8fe5;font-size:14px}
+@keyframes electron-flow{to{stroke-dashoffset:0}}
+body.reduce-motion .mechanism-demo .electron-arrow{animation:none;stroke-dashoffset:0}body.reduce-motion .mechanism-demo,body.reduce-motion .mechanism-product{transition:none}
+@media(prefers-reduced-motion:reduce){.mechanism-demo .electron-arrow{animation:none;stroke-dashoffset:0}.mechanism-demo,.mechanism-product{transition:none}}
+@media(max-width:650px){.molecule-caption{bottom:8px;right:3px;font-size:10px;max-width:53%;padding:6px 9px}.chapter-sphere .sphere-gesture{max-width:42%;font-size:10px;left:3px}.reaction-callout .callout-short{padding-top:0}.reaction-callout .callout-kind{font-size:9px;white-space:normal}.immersive-navigator .reaction-sphere .sphere-node.reaction-callout{gap:5px}.reaction-mode-switch{margin-top:10px}.reaction-mode-switch button{font-size:12px;padding:7px 10px}.mechanism-playback{flex-wrap:wrap;gap:8px}.mechanism-playback button{font-size:13px}.mechanism-step-label{font-size:14px}.arrow-caption{gap:10px}.arrow-caption strong{font-size:12px}}
+
+.reaction-callout .callout-name,.reaction-callout .callout-short,.reaction-callout .callout-formula,.reaction-callout .callout-kind{flex-shrink:0}
+
+.mechanism-product-label{position:absolute;top:12px;left:15px;font:12px var(--sans);color:#73468a;background:#e9def5bd;padding:6px 10px;border-radius:20px}.lab-workspace{background:#17111f;border-color:#c68fe62c}.mechanism-demo{background:#f5f1fa}
