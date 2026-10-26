@@ -1,4 +1,4 @@
-# Organic Recall 3
+# Organic Recall 3.3
 
 Public site: https://esc0rterzhou.github.io/organic-recall/
 
@@ -8,13 +8,14 @@ An independent organic chemistry workspace with English, Chinese and French inte
 
 - All 26 textbook chapters remain selectable from the homepage study pass and Chapters catalogue.
 - 236 original basic questions, including 36 in Chapter 19. All questions and 259 section titles have Chinese and French translations; original PDF text stays in its source language.
-- The Visual lab opens directly on a particle reaction sphere. Select a reaction node to open one of the six Chapter 19 exercises, which use group tiles, click-to-place electron arrows, intermediate choices and ordered reagent slots. No full drawing editor is required. Original reaction graphs, formal-charge checks, explicit proton tracking and paired-arrow checks are retained.
+- Double-click a homepage chapter circle to enter that chapter. Single-click selects it; the practice button remains available. Enter also opens the focused node.
+- The Visual lab opens on a smaller particle sphere with surface dots connected to reaction boxes. Each box displays the reaction name and transformation. Double-click a dot or box, or click its Practice arrow, to enter one of the six Chapter 19 exercises. Conditions-only reactions open their reference panel. The lab navigation opens the available Chapter 19 map directly. Exercises use group tiles, click-to-place electron arrows, intermediate choices and ordered reagent slots. Original reaction graphs, formal-charge checks, explicit proton tracking and paired-arrow checks are retained.
 - The reaction map and five integrated prompts remain under Visual lab. Conditions stay hidden until revealed. Wrong checks and hints flag points for review.
 - The supplied sixth-edition textbook is built in. PDF.js renders all 1,374 original PDF pages inside the website, including front matter and references. Chapter selection and question references retain original page numbers. Losslessly compressed blocks load only the needed chapter; no file upload or external reader is required. The reader retains two parsed parts in memory and browser HTTP caching avoids repeated downloads.
 - Lecture PDF upload has been removed. Course content is updated centrally by the maintainer after receiving teaching materials outside the website.
 - Language and reduced-motion preferences live under Settings. User progress, quiz drafts, visual attempts, notes and reading bookmarks are stored per profile. Guest data is separate; copying guest progress into an account is explicit.
 
-The default entry page uses the original dusk cloudscape and a glass login panel. The chapter and reaction pages use a minimal violet particle stage with a compact selection dock. Animated flowing strands, local cursor attraction, spring return, cursor trails and drag rotation respond to the mouse. Labels stay compact until hover or selection. Keyboard selection, pause, reduced motion and list selectors remain available. Study statistics stay on the dedicated progress page. Main reading text is larger, explanatory copy is reduced, and optional guidance is expandable. Navigation uses short content entrances; answer selection updates in place to retain focus. Reduced motion follows both the site setting and the operating system. The original reference video and design documents are not deployed.
+The default entry page uses the original dusk cloudscape and a glass login panel. The chapter and reaction pages use a violet particle stage with a compact selection dock. A coherent rippling shell, three flowing filaments, faint inner particles, local cursor attraction, spring return, cursor trails and drag rotation add depth. Chapter labels stay compact; reaction boxes stay readable in fixed slots while their surface dots and connecting lines rotate. Mobile boxes use shorter titles and wrap formulas. Keyboard entry, pause, reduced motion and list selectors remain available. Study statistics stay on the dedicated progress page. Main reading text is larger, explanatory copy is reduced, and optional guidance is expandable. Navigation uses short content entrances; answer selection updates in place to retain focus. Reduced motion follows both the site setting and the operating system. The original reference video and design documents are not deployed.
 
 ## Run and build
 

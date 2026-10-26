@@ -141,3 +141,29 @@ body:has(.immersive-navigator) .site-footer{display:none}
 @media(max-width:650px){.chapter-orbit-panel{padding:21px 18px}.chapter-orbit-panel>.section-top h2{font-size:22px}.sphere-stage{height:340px;margin:0 -14px}.sphere-node{font-size:15px;min-width:41px;min-height:41px}.sphere-controls{margin:12px 0 22px;align-items:center;font-size:12px;gap:8px}.sphere-controls>span{max-width:155px}.sphere-controls button{font-size:12px;padding:7px 8px;min-height:35px}.sphere-hover-label{font-size:15px;bottom:0;max-width:90%;width:max-content}.chapter-orbit-title{flex-direction:column;align-items:start;gap:12px;margin-top:0}.chapter-orbit-title h2{font-size:27px}.chapter-orbit-panel .button-row .solid-button,.chapter-orbit-panel .button-row .outline-button{font-size:15px;padding:13px 16px}.chapter-orbit-panel .chapter-meter{font-size:14px}.sphere-list{font-size:15px}.orbit-sidebar{grid-template-columns:1fr}.orbit-sidebar .recall-card{min-height:0}.orbit-sidebar .quick-actions{grid-template-columns:1fr}.orbit-sidebar .quick-action{min-height:85px}.reaction-orbit-panel{padding:10px 17px 22px}.reaction-sphere .sphere-stage{height:375px;margin:0 -15px}.reaction-sphere .sphere-node{font-size:12px;max-width:116px;min-width:60px;min-height:43px;padding:8px 9px}.reaction-sphere .sphere-hover-label{font-size:16px}.reaction-sphere .sphere-controls{font-size:12px;margin:12px 0 20px}.sphere-map-layout{gap:17px}.sphere-map-layout .edge-detail{padding:25px}.edge-detail h2{font-size:28px;gap:15px}.edge-detail>.solid-button,.edge-detail>.outline-button{font-size:16px;width:100%;margin-right:0}.reader-canvas-wrap{min-height:350px}.reader-status-row{align-items:start;gap:12px}.reader-status-row .text-button{flex-shrink:0;font-size:13px}.reader-status-row .quiet-note{font-size:14px}.reader-heading p{font-size:14px}}
 
 .auth-panel.panel{background:#bea0df14;border-color:#efd6ff44}.chapter-tile:hover,.visual-tile:hover,.quick-action:hover{background:#22152e;border-color:#d5a8f95c}
+
+/* Surface anchors, readable reaction callouts, and direct entry. */
+.sphere-gesture{position:absolute;bottom:13px;left:15px;font:12px var(--sans);letter-spacing:.035em;color:#b795c9;pointer-events:none}
+.immersive-navigator .sphere-stage{background:radial-gradient(ellipse at 50% 52%,#6030890b,transparent 68%)}
+.immersive-navigator .reaction-sphere .sphere-stage{height:clamp(540px,67svh,670px);margin:0}
+.immersive-navigator .reaction-sphere .sphere-hover-label{display:none}
+.immersive-navigator .reaction-sphere .sphere-node.reaction-callout{min-width:0;max-width:none;min-height:0;padding:12px 16px;border-radius:8px;display:flex;flex-direction:column;justify-content:center;align-items:start;gap:7px;text-align:left;font:15px/1.2 var(--sans);color:#f2dcff;background:linear-gradient(115deg,#261435e8,#140e1de8);border:1px solid #c180f33b;box-shadow:inset 2px 0 #ac5ae647;backdrop-filter:blur(12px)}
+.immersive-navigator .reaction-callout[aria-pressed=true],.immersive-navigator .reaction-callout.is-hovered{border-color:#d4a0f5a3;background:linear-gradient(115deg,#422153ef,#20112eeb);box-shadow:0 0 24px #ac52ec13,inset 2px 0 #cf8fff}
+.reaction-callout .callout-name{font-size:15px;font-weight:550;padding-right:17px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.reaction-callout .callout-formula{font:13px/1.3 var(--mono);color:#c8addb;white-space:normal;max-width:100%;overflow-wrap:anywhere}
+.reaction-callout .sphere-enter{position:absolute;right:5px;top:4px;padding:6px;color:#dfb5ff;font:11px var(--sans);border-radius:4px;background:#b76bea0d;pointer-events:auto}
+.reaction-callout .callout-name{padding-top:8px}.reaction-callout .sphere-enter:hover{color:white;background:#c67cf13b}
+.reaction-callout .callout-short{display:none}
+.reaction-sphere .sphere-anchor{position:absolute;width:28px;height:28px;min-height:28px;border:0;border-radius:50%;background:transparent;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;box-shadow:none;padding:0}
+.reaction-sphere .sphere-anchor.is-active{background:#dda2ff13;box-shadow:0 0 20px #c07aff44}
+.reaction-navigator .reaction-dock-row{margin-top:0}.reaction-dock-row .selection-dock .dock-copy h2{font-size:23px}
+@media(max-width:650px){
+ .immersive-navigator .reaction-sphere .sphere-stage{height:570px;margin:0 -9px}
+ .immersive-navigator .reaction-sphere .sphere-node.reaction-callout{padding:10px 8px;gap:5px;border-radius:6px}
+ .reaction-callout .callout-name{display:none}
+ .reaction-callout .callout-short{display:block;font-size:12px;font-weight:550;padding-top:9px;line-height:1.2;width:100%;overflow-wrap:anywhere}
+ .reaction-callout .callout-formula{font-size:11px;line-height:1.25;flex-shrink:0}
+ .reaction-callout .sphere-enter{font-size:10px;right:2px;top:1px;padding:3px 4px}
+ .sphere-gesture{bottom:8px;left:10px;font-size:11px}
+ .reaction-dock-row .selection-dock .dock-copy h2{font-size:20px}
+}
