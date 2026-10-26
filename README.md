@@ -1,4 +1,4 @@
-# Organic Recall 3.4
+# Organic Recall 3.5
 
 Public site: https://esc0rterzhou.github.io/organic-recall/
 
@@ -16,7 +16,9 @@ An independent organic chemistry workspace with English, Chinese and French inte
 - Lecture PDF upload has been removed. Course content is updated centrally by the maintainer after receiving teaching materials outside the website.
 - Language and reduced-motion preferences live under Settings. User progress, quiz drafts, visual attempts, notes and reading bookmarks are stored per profile. Guest data is separate; copying guest progress into an account is explicit.
 
-The default entry page retains the original cloudscape and glass login panel. A local WebGL renderer draws 32,000 particles on desktop and 12,000 on mobile, with a Canvas fallback. Particle bands morph smoothly between a torus, helix, lobes and vortex in response to reaction focus; mouse attraction and a brief entry pulse complement drag rotation. Vertical drag follows the pointer. The homepage shows a representative molecular structure and formula for the selected chapter, with chapter circles arranged clear of the central molecule. These are structural illustrations and stylized particles, not computed quantum orbitals. Reaction text stays in fixed readable boxes. Keyboard entry, pause, reduced motion, and list selectors remain available. Statistics stay on the progress page; supporting guidance remains expandable. The original reference video and design documents are not deployed.
+The default entry page retains the original cloudscape and glass login panel. A local WebGL renderer draws 32,000 particles on desktop and 12,000 on mobile, with a Canvas fallback. Each of the ten reactions has a different form: torus, double helix, orbital lobes, vortex, trefoil, twisted ribbon, crystal cage, crown, rosette or spiral disc. Focus transitions use a smooth 760 ms easing curve and loosen into a shell between forms to prevent a dense collapse; rapid changes start from the current pose. Mouse attraction, a brief entry pulse and natural drag rotation remain available.
+
+Homepage molecules use skeletal formulas: unlabeled carbon vertices/endpoints, visible heteroatoms, clipped bond ends and inward aromatic double bonds. Condensed aldehyde and hydroxymethyl groups are expanded before drawing, and formula numerals use subscripts. Methane remains explicitly labeled because a single carbon cannot be expressed as a skeletal bond. Chapter circles stay clear of the central illustration. These are structural illustrations and stylized particles, not computed quantum orbitals. Reaction text stays in fixed readable boxes. Keyboard entry, pause, reduced motion, and list selectors remain available. Statistics stay on the progress page; supporting guidance remains expandable. The original reference video and design documents are not deployed.
 
 ## Run and build
 

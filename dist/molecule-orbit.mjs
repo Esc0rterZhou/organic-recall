@@ -17,4 +17,28 @@ const ester={name:['Methyl acetate','乙酸甲酯','Acétate de méthyle'],formu
 const amine={name:['Methylamine','甲胺','Méthylamine'],formula:'CH3NH2',atoms:[['CH3',-.4,0,0],['NH2',.4,0,0]],bonds:[[0,1,1]]};
 const toluene={...ring,name:['Toluene','甲苯','Toluène'],formula:'C6H5CH3',atoms:[...ring.atoms.map((a,i)=>i===0?['C',...a.slice(1)]:[...a]),['CH3',1.3,0,0]],bonds:[...ring.bonds,[0,6,1]]};
 export function chapterMolecule(id){if(+id===1)return methane;if(+id===2)return acid;if(+id===3)return butane;if(+id===4)return cyclohexane;if(+id===5)return chiral;if([6,7].includes(+id))return haloalkane;if([8,9,10].includes(+id))return ethanol;if(+id===24)return sugar;if(+id===25)return pyridine;if([11,12].includes(+id))return alkene;if(+id===13)return alkyne;if([14,15].includes(+id))return ring;if([16,22].includes(+id))return toluene;if([17,18].includes(+id))return ketone;if(+id===19)return acid;if([20,23].includes(+id))return ester;if(+id===21)return amine;if(+id===26)return glycine;return ring}
-export function drawMolecule(ctx,model,project,radius){const points=model.atoms.map(([,x,y,z])=>project([x*.69,y*.69,z*.69]));ctx.save();for(const [a,b,order]of model.bonds){const p=points[a],q=points[b],dx=q.x-p.x,dy=q.y-p.y,len=Math.hypot(dx,dy)||1,ox=-dy/len*3,oy=dx/len*3;for(let j=0;j<order;j++){const offset=j-(order-1)/2;ctx.beginPath();ctx.moveTo(p.x+ox*offset,p.y+oy*offset);ctx.lineTo(q.x+ox*offset,q.y+oy*offset);ctx.strokeStyle='#d6a6f4bb';ctx.lineWidth=1.4;ctx.stroke()}}const font=Math.max(12,Math.min(18,radius*.078));points.map((p,i)=>({p,i})).sort((a,b)=>a.p.z-b.p.z).forEach(({p,i})=>{const label=model.atoms[i][0],size=font*(label.length>2?1.15:1);ctx.beginPath();ctx.arc(p.x,p.y,size,0,Math.PI*2);ctx.fillStyle='#130b20e8';ctx.fill();ctx.strokeStyle=label.includes('O')?'#f1b9f4aa':label.includes('N')?'#b4b6ffaa':'#c583ee88';ctx.lineWidth=1;ctx.stroke();ctx.fillStyle=label.includes('O')?'#ffd7ff':label.includes('N')?'#d0cfff':'#f0daff';ctx.font=`500 ${font}px system-ui`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(label,p.x,p.y)});ctx.restore()}
+// Expand condensed carbon groups before rendering a true skeletal formula.
+export function skeletalModel(model){
+ if(model.formula==='CH4')return {atoms:[['CH4',0,0,0]],bonds:[]};
+ const atoms=model.atoms.map(a=>[...a]),bonds=model.bonds.map(b=>[...b]);
+ for(let i=0;i<model.atoms.length;i++){const [label,x,y,z]=atoms[i];
+  if(label==='CHO'){atoms[i][0]='C';atoms.push(['O',x-.1,y+.65,z]);bonds.push([i,atoms.length-1,2])}
+  else if(label==='CH2OH'){atoms[i][0]='C';atoms.push(['OH',x+.52,y-.40,z]);bonds.push([i,atoms.length-1,1])}
+  else if(/^CH[0-3]?$/.test(label))atoms[i][0]='C';
+ }
+ return {atoms,bonds};
+}
+export function skeletalLabel(label){return label==='C'?'':label}
+function textParts(label){return label.match(/[A-Za-z]+|[0-9]+|[^A-Za-z0-9]/g)||[]}
+function textWidth(ctx,label,font){let w=0;for(const part of textParts(label)){ctx.font=`500 ${/^[0-9]+$/.test(part)?font*.70:font}px system-ui`;w+=ctx.measureText(part).width}return w}
+function drawLabel(ctx,label,x,y,font){const parts=textParts(label),width=textWidth(ctx,label,font);let px=x-width/2;ctx.textAlign='left';ctx.textBaseline='middle';ctx.lineWidth=5;ctx.strokeStyle='#150b22';ctx.lineJoin='round';for(const part of parts){const sub=/^[0-9]+$/.test(part),fy=y+(sub?font*.26:0);ctx.font=`500 ${sub?font*.70:font}px system-ui`;ctx.strokeText(part,px,fy);ctx.fillText(part,px,fy);px+=ctx.measureText(part).width}}
+export function drawMolecule(ctx,model,project,radius){
+ const skeleton=skeletalModel(model),points=skeleton.atoms.map(([,x,y,z])=>project([x*.69,y*.69,z*.69])),font=Math.max(14,Math.min(22,radius*.094));ctx.save();ctx.lineCap='round';ctx.lineJoin='round';
+ const centre={x:points.reduce((s,p)=>s+p.x,0)/points.length,y:points.reduce((s,p)=>s+p.y,0)/points.length},ring=skeleton.atoms.length>=6&&skeleton.bonds.length>=skeleton.atoms.length;
+ for(const [a,b,order]of skeleton.bonds){const p=points[a],q=points[b],dx=q.x-p.x,dy=q.y-p.y,len=Math.hypot(dx,dy)||1,ux=dx/len,uy=dy/len,ox=-uy,oy=ux,labelA=skeletalLabel(skeleton.atoms[a][0]),labelB=skeletalLabel(skeleton.atoms[b][0]);
+  const trimA=labelA?Math.min(len*.33,Math.max(font*.45,textWidth(ctx,labelA,font)*Math.abs(ux)/2)+5):0,trimB=labelB?Math.min(len*.33,Math.max(font*.45,textWidth(ctx,labelB,font)*Math.abs(ux)/2)+5):0;
+  const inward=(centre.x-(p.x+q.x)/2)*ox+(centre.y-(p.y+q.y)/2)*oy,offsets=order===1?[0]:order===2&&ring?[0,Math.sign(inward)*5]:order===2?[-2.3,2.3]:[-4.2,0,4.2];
+  for(let j=0;j<offsets.length;j++){const offset=offsets[j],inset=ring&&order===2&&j===1?8:0;ctx.beginPath();ctx.moveTo(p.x+ux*(trimA+inset)+ox*offset,p.y+uy*(trimA+inset)+oy*offset);ctx.lineTo(q.x-ux*(trimB+inset)+ox*offset,q.y-uy*(trimB+inset)+oy*offset);ctx.strokeStyle='#e6c2ff';ctx.lineWidth=order===3?1.8:2.1;ctx.stroke()}
+ }
+ points.forEach((p,i)=>{const label=skeletalLabel(skeleton.atoms[i][0]);if(!label)return;ctx.fillStyle=label.includes('O')?'#ffd7ff':label.includes('N')?'#d6ccff':'#f1daff';drawLabel(ctx,label,p.x,p.y,font)});ctx.restore();
+}
